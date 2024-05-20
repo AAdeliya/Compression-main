@@ -29,8 +29,7 @@ public class Compressor {
             }
             reader.close();
         } catch (IOException e) {
-            System.err.println("Error reading file:\n" + //
-                                " " + e.getMessage());
+            System.err.println("Error reading file:" + e.getMessage());
         } finally {
             return words;
         }
