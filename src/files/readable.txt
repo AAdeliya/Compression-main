@@ -1,7 +1,0 @@
-I am Learning Java day
-Sun moon cat
-dog house car computer
-disk
-bird
-
-bag

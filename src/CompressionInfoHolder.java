@@ -1,6 +1,7 @@
+import java.io.Serializable;
 import java.util.Map;
 
-public class CompressionInfoHolder {
+public class CompressionInfoHolder  implements Serializable{
      private final Map<Short, String> codeToWord; 
      private final byte[] codedText;
     Map<Short, String> codeMap; 
